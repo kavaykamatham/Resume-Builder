@@ -444,7 +444,7 @@ export default function Home() {
 
           {/* Footer inside preview panel */}
           <div className="site-footer" style={{ width: '100%', maxWidth: 760 }}>
-            Made by <strong>Kavya</strong> · <a href="mailto:your@email.com">kavyakamatham@email.com</a>
+            Made by <strong>Kavya</strong> · <a href="mailto:your@email.com">kavyakamatham147@gmail.com</a>
             &nbsp;·&nbsp;
             <a href="https://digitalheroesco.com" target="_blank" rel="noreferrer">Digital Heroes</a>
           </div>
