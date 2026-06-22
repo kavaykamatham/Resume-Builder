@@ -187,7 +187,8 @@ export default function Home() {
     if (!previewRef.current) return
     setDownloading(true)
     try {
-      const html2pdf = (await import('html2pdf.js')).default
+      const html2pdf = ((await import('html2pdf.js')) as any).default
+      
       const opt = {
         margin: [10, 10, 10, 10],
         filename: `${data.fullName.replace(/\s+/g, '_') || 'resume'}.pdf`,
